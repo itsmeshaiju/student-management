@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/admin.jpg");
+}
+
+h1 {
+    text-align: center;
+    background-color: #51ecec;
+    color: #0f234e;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #51ecec;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #0f234e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #A9A9A9;
+}
+
+.error{
+    color:red;
+    width:95%;
+    margin: 0 auto;
+    padding-bottom:10px;
+}
+
+a {
+    text-decoration: none; 
+    color: #ffffff; /* Link text color */
+    padding: 10px 15px; 
+    background-color: #0f234e; 
+    border-radius: 5px; 
+}
+
+a:hover {
+    background-color: #a2a2a2; /* Change background color on hover */
+}
+
+/* Position the links at the top right corner */
+p {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+/* Style the links within the <p> element */
+p a {
+    margin-left: 10px; /* Add spacing between links */
+}
